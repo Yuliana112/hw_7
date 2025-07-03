@@ -3,6 +3,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: var(--main-font-size);
+    background: #83c1d2;
 }
 
 .container {
@@ -13,7 +14,7 @@ body {
 .header {
     /* margin: auto 15px; */
     /* background: #697372; */
-} 
+}
 
 .nav {
     border-bottom: 1px solid #828282;
@@ -38,6 +39,7 @@ body {
 .menu__link:hover {
     color: #070707;
 }
+
 .section {
     height: 100vh;
     display: flex;
@@ -45,6 +47,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .form {
     border: 1px solid #41a59d;
 
@@ -63,7 +66,15 @@ body {
     margin-bottom: 8px;
 }
 
-.form__input,
+.form__input_country {
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #879594;
+    resize: vertical;
+}
+
 .form__select {
     margin-bottom: 20px;
     padding: 6px 10px;
@@ -75,7 +86,9 @@ body {
     display: flex;
     gap: 5vw;
     justify-content: space-around;
+    padding: 0 16px auto;
 }
+
 .gender__item label {
     display: flex;
     align-items: center;
@@ -87,5 +100,41 @@ body {
     height: 20px;
     background: #ffffffe0;
     border: 1px solid #d0c2c2;
-    border-radius: 50%; 
+    border-radius: 50%;
+}
+
+.skills__item {
+    gap: 8px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.form__button__reset {
+    background-color: #c44141;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form__button__reset:hover {
+    background-color: #a22e2e;
+}
+
+.form__button__submit {
+    background-color: #1c10cc;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form__button__submit.form__button__submit:hower {
+    background-color: #0d1db1;
 }
