@@ -6,38 +6,14 @@ body {
     background: #83c1d2;
 }
 
-.container {
-    width: 970px;
-    margin: 0 auto;
-}
 
-.header {
-    /* margin: auto 15px; */
-    /* background: #697372; */
-}
-
-.nav {
-    border-bottom: 1px solid #828282;
-    padding: 28px 15px;
-}
-
-.menu {
+.main {
     display: flex;
     justify-content: center;
     gap: 40px;
     list-style: none;
     padding-left: 0;
     margin: 0 0;
-}
-
-.menu__link {
-    text-decoration: none;
-    color: #828282;
-    transition: all 0.3s;
-}
-
-.menu__link:hover {
-    color: #070707;
 }
 
 .section {
@@ -86,7 +62,7 @@ body {
     display: flex;
     gap: 5vw;
     justify-content: space-around;
-    padding: 0 16px auto;
+    margin-bottom: 16pz;
 }
 
 .gender__item label {
